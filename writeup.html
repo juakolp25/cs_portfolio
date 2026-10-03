@@ -31,7 +31,7 @@
             container.innerHTML = '<p>No se especificó ningún writeup.</p>';
         } else {
             // 2. Cargar el JSON
-            fetch('data/writeups.json')
+            fetch('json/writeup.json')
                 .then(res => res.json())
                 .then(data => {
                     const writeup = data[id];
