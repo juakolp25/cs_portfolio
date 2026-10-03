@@ -1,1 +1,20 @@
-
+{
+  "easyctf": {
+    "titulo": "TryHackMe: EasyCTF",
+    "fecha": "2025-09-15",
+    "dificultad": "Fácil",
+    "plataforma": "TryHackMe",
+    "tags": ["SQLi", "Sudo_Exploit", "CMS", "Linux"],
+    "descripcion": "Análisis de vulnerabilidad SQL Injection (CVE-2019-9053) y escalada de privilegios mediante abuso de permisos en binarios (Vim).",
+    "contenido": "<h3>Reconocimiento</h3><p>...</p><h3>Explotación</h3><p>...</p>"
+  },
+  "bandit": {
+    "titulo": "OverTheWire: Bandit",
+    "fecha": "2025-08-01",
+    "dificultad": "Fácil",
+    "plataforma": "OverTheWire",
+    "tags": ["Linux", "SSH", "Permisos"],
+    "descripcion": "Resolución de 30+ retos de Linux (SSH, permisos SUID, manejo de archivos).",
+    "contenido": "<h3>Nivel 0</h3><p>...</p>"
+  }
+}
