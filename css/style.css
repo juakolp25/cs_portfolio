@@ -109,6 +109,47 @@ code {
     color: #ff7b72; /* Color rojizo para código/comandos */
 }
 
+/* --- Estilos para la sección de Writeup --- */
+
+#writeup-container {
+    max-width: 800px;
+    margin: 2rem auto;
+    padding: 2rem;
+    line-height: 1.7;
+}
+
+#writeup-container h1 {
+    font-size: 2rem;
+    margin-bottom: 0.5rem;
+}
+
+#writeup-container .meta {
+    color: #8b949e;
+    margin-bottom: 1rem;
+}
+
+#writeup-container .tags span {
+    display: inline-block;
+    background: #21262d;
+    color: #58a6ff;
+    padding: 2px 8px;
+    border-radius: 4px;
+    font-size: 0.8rem;
+    margin-right: 5px;
+}
+
+#writeup-container .writeup-content h3 {
+    margin-top: 1.5rem;
+    color: #58a6ff;
+}
+
+#writeup-container .writeup-content pre {
+    background: #161b22;
+    padding: 1rem;
+    border-radius: 6px;
+    overflow-x: auto;
+}
+
 /* --- Estilos para la sección Sobre Mí --- */
 
 #about {
