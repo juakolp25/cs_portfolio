@@ -1,1 +1,18 @@
-
+{
+  "wazuh-lab": {
+    "titulo": "SIEM/XDR Lab con Wazuh",
+    "fecha": "2025-09-01",
+    "tipo": "Laboratorio propio",
+    "tags": ["Docker", "Wazuh", "SIEM", "Linux"],
+    "descripcion": "Despliegue de stack Wazuh en Docker sobre Kali Linux (WSL2). Monitoreo de integridad de archivos (FIM) y detección de intrusiones en tiempo real.",
+    "contenido": "<h3>Objetivo</h3><p>Montar un laboratorio propio de SIEM para practicar detección de intrusiones.</p><h3>Stack</h3><ul><li>Wazuh Manager</li><li>Wazuh Indexer</li><li>Wazuh Dashboard</li></ul><h3>Resultado</h3><p>Configuré FIM y detección de intrusiones, documentando el proceso completo en este portfolio.</p>"
+  },
+  "universal-decoder": {
+    "titulo": "Universal Decoder",
+    "fecha": "2025-06-01",
+    "tipo": "Herramienta web propia",
+    "tags": ["JavaScript", "Open Source", "Web"],
+    "descripcion": "Herramienta en JavaScript para detección automática de formatos (Base64, binario, hexadecimal, Morse, ROT-13, Brainfuck).",
+    "contenido": "<h3>Qué es</h3><p>Una herramienta web minimalista para detectar automáticamente el formato de un texto pegado.</p><h3>Tecnologías</h3><ul><li>JavaScript puro (sin frameworks)</li><li>Detección en tiempo real</li><li>Procesamiento 100% en el navegador</li></ul><h3>Enlace</h3><p>Disponible en GitHub.</p>"
+  }
+}
