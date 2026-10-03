@@ -62,39 +62,41 @@ nav a:hover { color: var(--accent-color); }
 
 /* --- Estilos para Writeups y Proyectos --- */
 
-#writeup {
-    padding: 2rem 10%;
-    max-width: 1000px;
-    margin: 0 auto;
-}
-
-.writeup-content h2 {
-    color: var(--accent-color);
-    border-bottom: 1px solid #30363d;
-    padding-bottom: 10px;
-    margin-top: 30px;
-}
-
-.writeup-content h3 {
-    margin-top: 20px;
-}
-
-.project-img-full {
-    width: 100%;
-    max-width: 900px;
-    height: auto;
-    border: 1px solid #30363d;
-    border-radius: 8px;
+#writeup-container,
+#proyecto-container {
+    max-width: 800px;
     margin: 2rem auto;
-    display: block;
+    padding: 2rem;
+    line-height: 1.7;
 }
 
-.writeup-content ul {
-    padding-left: 20px;
+#writeup-container h1,
+#proyecto-container h1 {
+    font-size: 2rem;
+    margin-bottom: 0.5rem;
 }
 
-.writeup-content li {
-    margin-bottom: 10px;
+#writeup-container .meta,
+#proyecto-container .meta {
+    color: #8b949e;
+    margin-bottom: 1rem;
+}
+
+#writeup-container .tags span,
+#proyecto-container .tags span {
+    display: inline-block;
+    background: #21262d;
+    color: #58a6ff;
+    padding: 2px 8px;
+    border-radius: 4px;
+    font-size: 0.8rem;
+    margin-right: 5px;
+}
+
+#writeup-container .writeup-content h3,
+#proyecto-container .proyecto-content h3 {
+    margin-top: 1.5rem;
+    color: #58a6ff;
 }
 
 .date {
@@ -107,47 +109,6 @@ code {
     padding: 2px 6px;
     border-radius: 4px;
     color: #ff7b72; /* Color rojizo para código/comandos */
-}
-
-/* --- Estilos para la sección de Writeup --- */
-
-#writeup-container {
-    max-width: 800px;
-    margin: 2rem auto;
-    padding: 2rem;
-    line-height: 1.7;
-}
-
-#writeup-container h1 {
-    font-size: 2rem;
-    margin-bottom: 0.5rem;
-}
-
-#writeup-container .meta {
-    color: #8b949e;
-    margin-bottom: 1rem;
-}
-
-#writeup-container .tags span {
-    display: inline-block;
-    background: #21262d;
-    color: #58a6ff;
-    padding: 2px 8px;
-    border-radius: 4px;
-    font-size: 0.8rem;
-    margin-right: 5px;
-}
-
-#writeup-container .writeup-content h3 {
-    margin-top: 1.5rem;
-    color: #58a6ff;
-}
-
-#writeup-container .writeup-content pre {
-    background: #161b22;
-    padding: 1rem;
-    border-radius: 6px;
-    overflow-x: auto;
 }
 
 /* --- Estilos para la sección Sobre Mí --- */
