@@ -111,6 +111,22 @@ code {
     color: #ff7b72; /* Color rojizo para código/comandos */
 }
 
+pre {
+    background-color: #161b22;
+    padding: 12px;
+    border-radius: 6px;
+    overflow-x: auto;
+    border: 1px solid #30363d;
+    margin: 1rem 0;
+}
+
+pre code {
+    background-color: transparent;
+    padding: 0;
+    color: #c9d1d9;
+    font-size: 0.9rem;
+}
+
 /* --- Estilos para la sección Sobre Mí --- */
 
 #about {
