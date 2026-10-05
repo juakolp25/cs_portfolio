@@ -122,6 +122,17 @@ nav a:hover { color: var(--accent-color); }
     font-size: 1rem;
 }
 
+#writeup-container ul,
+#proyecto-container ul {
+    padding-left: 1.5rem;
+    margin: 1rem 0;
+}
+
+#writeup-container li,
+#proyecto-container li {
+    margin-bottom: 0.5rem;
+}
+
 .date {
     font-style: italic;
     color: #8b949e; /* Gris suave para fechas */
